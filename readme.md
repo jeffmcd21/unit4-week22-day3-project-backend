@@ -47,26 +47,15 @@
 
 | Route Name | Endpoint | Method | Decsription |
 |------------|----------|--------|-------------|
-| Index | /mountains | GET | Renders team details |
-| New | /mountains/new | GET | Display a form to add new players |
-| Delete | /mountains/:id | DELETE | Remove a particular player then redirect |
-| Update | /mountains/:id | PUT | Update a particular player then redirect |
-| Create | /mountains | GET | Add a new player to the database then redirect |
-| Edit | /mountains/:id/edit | POST | Show edit form for one player |
-| Show | /mountains/:id | GET | Show info about one player |
+| Index | /info | GET | Renders team details |
+| New | /batter_info/new | GET | Display a form to add new players |
+| Delete | /batter_info/:id | DELETE | Remove a particular player then redirect |
+| Update | /batter_info/:id | PUT | Update a particular player then redirect |
+| Create | /batter_info | GET | Add a new player to the database then redirect |
+| Edit | /batter_info/:id/edit | POST | Show edit form for one player |
+| Show | /batter_info/:id | GET | Show info about one player |
 | Create User | /auth/signup/ | POST | User create account |
 | User Login | /auth/login/ | POST | User sign into account |
-
-
-| Endpoint | Method | Response | Other |
-| -------- | ------ | -------- | ----- |
-| /item | GET | JSON of all items | |
-| /item | POST | Create new item return JSON of new item | body must include data for new item |
-| /item/:id | GET | JSON of item with matching id number | |
-| /item/:id | PUT | update item with matching idea, return its JSON | body must include updated data |
-| /item/:id | DELETE | delete the item with the matching id | |
-| /auth/signup | POST | creates new user account returns user JSON | new user info must be included in body |
-| /auth/login | POST | logs in user and returns user JSON with JWT token | username and password must be included in body |
 
 
 ## Design Mockups (Mobile & Desktop)
