@@ -6,10 +6,10 @@
 - **App Name:** MLB Stats
 - **Description:** Historical Statisicts on Major League Baseball
 
-- **Github Backend:** 
-- **Deployed Backend:** 
+- **Github Backend:** https://github.com/jeffmcd21/unit4-week22-day3-project-backend
+- **Deployed Backend:** https://unit4-week22-day3-project-backend.onrender.com
 
-- **Github Frontend:** 
+- **Github Frontend:** https://github.com/jeffmcd21/unit4-week22-day3-project-front
 - **Deployed Frontend:** 
 
 - **Miro Board:** https://miro.com/app/board/uXjVKarxPOI=/
@@ -41,7 +41,7 @@
 - react
 - react-dom
 - react-router-dom
-- milligram
+- tailwind
 
 ## Route Map
 
