@@ -12,10 +12,10 @@ from django.db import models
 
 class Team_Info(models.Model):
     Sport=models.CharField(max_length=30)
-    Sport_Short_Description=models.CharField(max_length=3)
+    Sport_Short_Description=models.CharField(max_length=4)
     League_Division=models.CharField(max_length=30)
     League=models.CharField(max_length=25)
-    League_Short_Description=models.CharField(max_length=2)
+    League_Short_Description=models.CharField(max_length=3)
     Division=models.CharField(max_length=10)
     Team=models.CharField(max_length=30)
     Team_Location=models.CharField(max_length=20)
