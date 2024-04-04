@@ -41,7 +41,7 @@
 - react
 - react-dom
 - react-router-dom
-- tailwind
+- milligram
 
 ## Route Map
 
