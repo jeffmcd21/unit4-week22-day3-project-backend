@@ -21,6 +21,7 @@ class Team_Info(models.Model):
     Team_Location=models.CharField(max_length=20)
     Team_Name=models.CharField(max_length=20)
     Location_Code=models.IntegerField()
+    Image=models.CharField(blank=True)
     
 class Batter_Info(models.Model):
     last_name=models.CharField(max_length=50)

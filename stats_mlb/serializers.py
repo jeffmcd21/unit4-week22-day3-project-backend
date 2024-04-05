@@ -6,7 +6,7 @@ from rest_framework import serializers
 class TeamSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model=Team_Info
-        fields=('id','Sport', 'Sport_Short_Description', 'League_Division', 'League', 'League_Short_Description', 'Division', 'Team', 'Team_Location', 'Team_Name', 'Location_Code')
+        fields=('id','Sport', 'Sport_Short_Description', 'League_Division', 'League', 'League_Short_Description', 'Division', 'Team', 'Team_Location', 'Team_Name', 'Location_Code', 'Image')
 
 class BatterSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
